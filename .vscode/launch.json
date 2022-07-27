@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1110",
+            "request": "launch",
+            "mainClass": "Bronze_I.Q1110",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1157",
+            "request": "launch",
+            "mainClass": "Bronze_I.Q1157",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1292",
+            "request": "launch",
+            "mainClass": "Bronze_I.Q1292",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2408",
+            "request": "launch",
+            "mainClass": "Bronze_IV.Q2408",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2530",
+            "request": "launch",
+            "mainClass": "Bronze_IV.Q2530",
+            "projectName": "Baekjoon_f49a7461"
+        }
+    ]
+}
