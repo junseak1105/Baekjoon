@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q1259",
+            "request": "launch",
+            "mainClass": "Bronze_I.Q1259",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
             "name": "Launch Q1268",
             "request": "launch",
             "mainClass": "Bronze_I.Q1268",
