@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q2775",
+            "request": "launch",
+            "mainClass": "Bronze_I.Q2775",
+            "projectName": "Baekjoon_c812e563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4673",
+            "request": "launch",
+            "mainClass": "Silver_V.Q4673",
+            "projectName": "Baekjoon_c812e563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4673",
+            "request": "launch",
+            "mainClass": "Silver_V.Q4673",
+            "projectName": "Baekjoon_f49a7461"
+        },
+        {
+            "type": "java",
             "name": "Launch Q1546",
             "request": "launch",
             "mainClass": "Bronze_I.Q1546",
