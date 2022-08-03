@@ -11,7 +11,7 @@ public class Q1316 {
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
         int cnt = Integer.parseInt(buffer.readLine());
         int ans = 0;
-        boolean tof = true;
+        boolean tof = false;
 
         for (int i = 0; i < cnt; i++) {
             String str = buffer.readLine();
@@ -22,6 +22,8 @@ public class Q1316 {
             // 한단어면 무조건 증가
             if (str.length() == 1) {
                 ans++;
+                // System.out.println("성공한 문자:"+str);
+                // System.out.println("----------------------");
                 continue;
             } else {
                 for (int j = 1; j < str.length(); j++) {
@@ -33,8 +35,14 @@ public class Q1316 {
                             tof = false;
                             break;
                         } else {
+                            
                             tof = true;
                             temp_c = str.charAt(j);
+                        }
+                    }else{
+                        if(j==str.length()-1){
+                            tof = true;
+                            break;
                         }
                     }
                 }
@@ -42,7 +50,7 @@ public class Q1316 {
             }
 
             if (tof) {
-                // System.out.println("성공한 문자:"+str);
+                System.out.println("성공한 문자:"+str);
                 ans++;
             }
 
@@ -51,35 +59,3 @@ public class Q1316 {
         System.out.println(ans);
     }
 }
-// 다른사람 풀이
-// public class Q1316 {
-// static BufferedReader br = new BufferedReader(new
-// InputStreamReader(System.in));
-// public static void main(String[] args) throws IOException {
-// int N = Integer.parseInt(br.readLine());
-// int count = 0;
-// for (int i = 0; i < N; i++) {
-// if (isGroupString()) count++;
-// }
-// System.out.println(count);
-// }
-
-// public static boolean isGroupString() throws IOException {
-// boolean[] alphabetArr = new boolean[26];
-// int previousChar = 0;
-// String str = br.readLine();
-// for (int i = 0; i < str.length(); i++) {
-// char ch = str.charAt(i);
-// if (ch != previousChar) {
-// if (!alphabetArr[ch - 'a']) {
-// alphabetArr[ch - 'a'] = true;
-// previousChar = ch;
-// } else {
-// return false;
-// }
-// } else {
-// continue;
-// }
-// }
-// return true;
-// }

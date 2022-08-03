@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q1181",
+            "request": "launch",
+            "mainClass": "Silver_V.Q1181",
+            "projectName": "Baekjoon_c812e563"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7568",
+            "request": "launch",
+            "mainClass": "Silver_V.Q7568",
+            "projectName": "Baekjoon_c812e563"
+        },
+        {
+            "type": "java",
             "name": "Launch Q2869",
             "request": "launch",
             "mainClass": "Silver_V.Q2869",
