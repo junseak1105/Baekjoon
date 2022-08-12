@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q1920",
+            "request": "launch",
+            "mainClass": "Silver_IV.Q1920",
+            "projectName": "Baekjoon_c812e563"
+        },
+        {
+            "type": "java",
             "name": "Launch Q10845",
             "request": "launch",
             "mainClass": "Silver_IV.Q10845",
